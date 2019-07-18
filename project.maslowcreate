@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Head",
-            "x": 188,
-            "y": 106,
+            "x": 182.87978142076503,
+            "y": 108.23497267759562,
             "uniqueID": 426593,
             "ioValues": [],
             "topLevel": false,
@@ -218,8 +218,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Head",
-                    "x": 188,
-                    "y": 106,
+                    "x": 182.87978142076503,
+                    "y": 108.23497267759562,
                     "uniqueID": 426593,
                     "ioValues": []
                 },
