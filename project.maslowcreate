@@ -2,13 +2,90 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "M4 Bolt",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 407388,
+            "name": "Head",
+            "x": 188,
+            "y": 106,
+            "uniqueID": 426593,
             "ioValues": [],
-            "topLevel": true,
+            "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 231,
+                    "y": 74,
+                    "uniqueID": 984363,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 3.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 235,
+                    "y": 242,
+                    "uniqueID": 429278,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "radius",
+                            "ioValue": 1.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 410.54644808743166,
+                    "y": 103.25865209471766,
+                    "uniqueID": 342038,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 423,
+                    "y": 213,
+                    "uniqueID": 208531,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 559.8360655737705,
+                    "y": 190.34426229508196,
+                    "uniqueID": 554582,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 2
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -17,7 +94,191 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 984363,
+                    "ap2ID": 342038
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 429278,
+                    "ap2ID": 208531
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 342038
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 208531,
+                    "ap2ID": 554582
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Shaft",
+            "x": 194.0765027322404,
+            "y": 172.9271402550091,
+            "uniqueID": 885192,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 329.6812386156648,
+                    "y": 190.34426229508196,
+                    "uniqueID": 653182,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 578.4972677595628,
+                    "y": 159.2422586520947,
+                    "uniqueID": 972136,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 785.0145719489981,
+                    "y": 160.4863387978142,
+                    "uniqueID": 506473,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 653182,
+                    "ap2ID": 972136
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 972136,
+                    "ap2ID": 506473
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 506473
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "M4 Bolt",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 407388,
+            "ioValues": [],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Head",
+                    "x": 188,
+                    "y": 106,
+                    "uniqueID": 426593,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Shaft",
+                    "x": 194.0765027322404,
+                    "y": 172.9271402550091,
+                    "uniqueID": 885192,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 791.2349726775956,
+                    "y": 129.38433515482694,
+                    "uniqueID": 220943,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 935999",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 583632",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 566631",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 935999",
+                    "ap1ID": 426593,
+                    "ap2ID": 220943
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 583632",
+                    "ap1ID": 885192,
+                    "ap2ID": 220943
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 220943
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
