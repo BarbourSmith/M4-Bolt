@@ -263,7 +263,7 @@
                         "BOMitemName": "M4 Bolt",
                         "numberNeeded": 1,
                         "costUSD": 0.087,
-                        "source": "www.example.com",
+                        "source": "https://www.mcmaster.com/91290a144",
                         "totalNeeded": 0
                     }
                 },
