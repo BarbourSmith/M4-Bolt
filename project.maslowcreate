@@ -89,7 +89,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1048,
                     "y": 164,
                     "ioValues": []
                 }
@@ -180,7 +180,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1048,
                     "y": 164,
                     "ioValues": []
                 }
@@ -234,8 +234,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 791.2349726775956,
-                    "y": 129.38433515482694,
+                    "x": 609.59927140255,
+                    "y": 113.21129326047358,
                     "uniqueID": 220943,
                     "ioValues": [
                         {
@@ -253,10 +253,25 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 965.4061930783241,
+                    "y": 120.67577413479052,
+                    "uniqueID": 543474,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "M4 Bolt",
+                        "numberNeeded": 1,
+                        "costUSD": 0.087,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 1291.3551912568305,
+                    "y": 185.367941712204,
                     "ioValues": []
                 }
             ],
@@ -275,8 +290,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 220943,
+                    "ap2ID": 543474
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 220943
+                    "ap1ID": 543474
                 }
             ],
             "fileTypeVersion": 1
