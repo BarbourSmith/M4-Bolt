@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Head",
-            "x": 181,
-            "y": 105,
+            "x": 183,
+            "y": 97,
             "uniqueID": 426593,
             "ioValues": [],
             "topLevel": false,
@@ -17,8 +17,8 @@
                     "uniqueID": 984363,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 3.5
+                            "name": "diameter",
+                            "ioValue": 7.6
                         }
                     ]
                 },
@@ -124,8 +124,8 @@
         {
             "atomType": "Molecule",
             "name": "Shaft",
-            "x": 194.0765027322404,
-            "y": 172.9271402550091,
+            "x": 196,
+            "y": 170,
             "uniqueID": 885192,
             "ioValues": [],
             "topLevel": false,
@@ -133,13 +133,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 329.6812386156648,
-                    "y": 190.34426229508196,
+                    "x": 327,
+                    "y": 187,
                     "uniqueID": 653182,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 2
+                            "name": "diameter",
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -218,16 +218,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Head",
-                    "x": 181,
-                    "y": 105,
+                    "x": 183,
+                    "y": 97,
                     "uniqueID": 426593,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Shaft",
-                    "x": 194.0765027322404,
-                    "y": 172.9271402550091,
+                    "x": 196,
+                    "y": 170,
                     "uniqueID": 885192,
                     "ioValues": []
                 },
