@@ -255,8 +255,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 965.4061930783241,
-                    "y": 120.67577413479052,
+                    "x": 848,
+                    "y": 124,
                     "uniqueID": 543474,
                     "ioValues": [],
                     "BOMitem": {
@@ -266,6 +266,15 @@
                         "source": "https://www.mcmaster.com/92095a190",
                         "totalNeeded": 0
                     }
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 1066,
+                    "y": 139,
+                    "uniqueID": 220617,
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
                 },
                 {
                     "atomType": "Output",
@@ -296,8 +305,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 543474,
+                    "ap2ID": 220617
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 543474
+                    "ap1ID": 220617
                 }
             ],
             "fileTypeVersion": 1
