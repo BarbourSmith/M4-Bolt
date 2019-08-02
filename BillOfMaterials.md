@@ -2,4 +2,4 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|M4 Bolt|1|0.09|https://www.mcmaster.com/92095a190|
+|Total: |0|$0.00| |
