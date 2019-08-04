@@ -4,7 +4,7 @@
             "atomType": "Molecule",
             "name": "Head",
             "x": 183,
-            "y": 97,
+            "y": 94,
             "uniqueID": 426593,
             "ioValues": [],
             "topLevel": false,
@@ -23,23 +23,6 @@
                     ]
                 },
                 {
-                    "atomType": "RegularPolygon",
-                    "name": "RegularPolygon",
-                    "x": 235,
-                    "y": 242,
-                    "uniqueID": 429278,
-                    "ioValues": [
-                        {
-                            "name": "number of sides",
-                            "ioValue": 6
-                        },
-                        {
-                            "name": "radius",
-                            "ioValue": 1.5
-                        }
-                    ]
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 410.54644808743166,
@@ -49,40 +32,6 @@
                         {
                             "name": "height",
                             "ioValue": 2.2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 423,
-                    "y": 213,
-                    "uniqueID": 208531,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 559.8360655737705,
-                    "y": 190.34426229508196,
-                    "uniqueID": 554582,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
                         }
                     ]
                 },
@@ -103,20 +52,8 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 429278,
-                    "ap2ID": 208531
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 342038
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 208531,
-                    "ap2ID": 554582
                 }
             ],
             "fileTypeVersion": 1
@@ -124,8 +61,8 @@
         {
             "atomType": "Molecule",
             "name": "Shaft",
-            "x": 196,
-            "y": 170,
+            "x": 182,
+            "y": 180,
             "uniqueID": 885192,
             "ioValues": [],
             "topLevel": false,
@@ -219,15 +156,15 @@
                     "atomType": "Molecule",
                     "name": "Head",
                     "x": 183,
-                    "y": 97,
+                    "y": 94,
                     "uniqueID": 426593,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Shaft",
-                    "x": 196,
-                    "y": 170,
+                    "x": 182,
+                    "y": 180,
                     "uniqueID": 885192,
                     "ioValues": []
                 },
