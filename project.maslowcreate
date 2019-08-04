@@ -207,8 +207,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 1066,
-                    "y": 139,
+                    "x": 1091,
+                    "y": 122,
                     "uniqueID": 220617,
                     "ioValues": [],
                     "selectedColorIndex": "3"
