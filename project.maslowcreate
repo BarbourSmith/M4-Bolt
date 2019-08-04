@@ -61,8 +61,8 @@
         {
             "atomType": "Molecule",
             "name": "Shaft",
-            "x": 182,
-            "y": 180,
+            "x": 183,
+            "y": 176,
             "uniqueID": 885192,
             "ioValues": [],
             "topLevel": false,
@@ -163,8 +163,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shaft",
-                    "x": 182,
-                    "y": 180,
+                    "x": 183,
+                    "y": 176,
                     "uniqueID": 885192,
                     "ioValues": []
                 },
@@ -176,15 +176,15 @@
                     "uniqueID": 220943,
                     "ioValues": [
                         {
-                            "name": "3D shape 935999",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 583632",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 566631",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 249680",
                             "ioValue": 10
                         }
                     ]
@@ -224,7 +224,7 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 935999",
+                    "ap2Name": "3D shape 566631",
                     "ap1ID": 426593,
                     "ap2ID": 220943
                 },
