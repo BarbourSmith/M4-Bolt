@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|M4 Bolt|1|$0.09|https://www.mcmaster.com/92095a190|
-|Total: |1|$0.09| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $0.27
+ 3xCOG MSRP: $0.00
